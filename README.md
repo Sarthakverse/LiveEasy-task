@@ -44,6 +44,18 @@ LiveEasyTask is a Spring Boot application designed for load management. It allow
 - update load by load id - u need load Id a s path variable here
 ```http
    PUT - http://localhost:8080/load/{LOAD_ID}
+
+{
+    "loadingPoint": "patna",
+    "unloadingPoint": "gaya",
+    "productType": "",
+    "truckType": "tanker",
+    "noOfTrucks": 5,
+    "weight": 105,
+    "comment": "For farm distribution",
+    "date": "18-09-2024"
+}
+
 ```
 
 - delete load by load id - u need load Id a s path variable here
