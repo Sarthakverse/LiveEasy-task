@@ -15,27 +15,27 @@ LiveEasyTask is a Spring Boot application designed for load management. It allow
     spring.datasource.password = {YOUR_PASSWORD}
 ```
 # Refrence API endpoints 
-- create a load
+- create a load - also give request body as load 
 ```http
    POST : http://localhost:8080/load
 ```
 
-- get load by shipper id
+- get load by shipper id - u need to give path parameter here as well
 ```http
    GET : http://localhost:8080/load?shipperId={SHIPPER_ID}
 ```
 
-- get load by load id
+- get load by load id - u need load Id a s path variable here
 ```http
    GET : http://localhost:8080/load/{LOAD_ID}
 ```
 
-- update load by load id
+- update load by load id - u need load Id a s path variable here
 ```http
    PUT - http://localhost:8080/load/{LOAD_ID}
 ```
 
-- delete load by load id
+- delete load by load id - u need load Id a s path variable here
 ```http
    DELETE - http://localhost:8080/load/{LOAD_ID}
 ```
