@@ -3,7 +3,7 @@
 
 LiveEasyTask is a Spring Boot application designed for load management. It allows you to create, read, update, and delete load records. The application integrates with Swagger for API documentation and uses various Spring Boot features for robust service implementation.
 
-- [Swagger Documentation](http://localhost:8080/swagger-ui/index.html#/)
+- [Swagger Documentation - only when local is up and running](http://localhost:8080/swagger-ui/index.html#/)
 - [Postman Documentation](https://documenter.getpostman.com/view/29367403/2sAXjRXq9x)
 
 # **NOTE - i have added some additional custom responses based on validation checks by rigorous exception handling** 
