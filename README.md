@@ -18,8 +18,19 @@ LiveEasyTask is a Spring Boot application designed for load management. It allow
 - create a load - also give request body as load 
 ```http
    POST : http://localhost:8080/load
-```
 
+{
+    "loadingPoint": "hyderabad",
+    "unloadingPoint": "vijayawada",
+    "productType": "pharmaceuticals",
+    "truckType": "specialized",
+    "noOfTrucks": 2,
+    "weight": 250,
+    "comment": "Pharmaceuticals delivery",
+    "shipperId": "6e849a4e-4b87-46f2-bfb7-621a723f8a9e",
+    "date": "02-10-2024"
+}
+```
 - get load by shipper id - u need to give path parameter here as well
 ```http
    GET : http://localhost:8080/load?shipperId={SHIPPER_ID}
