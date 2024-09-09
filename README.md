@@ -50,6 +50,19 @@ LiveEasyTask is a Spring Boot application designed for load management. It allow
 - Validation checks
 
 # ScreenShots
+![Screenshot 2024-09-09 124443](https://github.com/user-attachments/assets/90b7c2e6-f1cb-4213-9a39-9faf3c70f3c4)
+![image](https://github.com/user-attachments/assets/a372606f-1cac-4bb7-a40b-5d7b0bc9169d)
+![image](https://github.com/user-attachments/assets/13635781-3d37-4d6c-875b-cc6befff524f)
+![image](https://github.com/user-attachments/assets/aae721f7-71ef-49e7-8478-0c3d5a913c59)
+![image](https://github.com/user-attachments/assets/03f276d4-16b0-44eb-b2cc-8eab3cc34b7c)
+![image](https://github.com/user-attachments/assets/0a685973-47b3-43a9-8590-f890adfeae3a)
+
+
+
+
+
+
+
 
 
 
